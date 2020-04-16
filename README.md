@@ -10,7 +10,7 @@
 
 
 ## Putting your datasets
-　There are 3 folders (image, ground_truth, test_image) under the folder,datasets. The folder,image, was used for placing the images for training.  The folder,ground_truth, was used for putting the labeled image corresponding to the images for training. ( Note: you need to be sure the files' order in both of folders (image, ground_truth) is consistent. Or, you can name the image and its corresponding labeled image with the same name and further put them into the 2 folders,respectively.)
+　There are 3 folders (**image**, **ground_truth**, **test_image**) under the folder,datasets. The folder,image, was used for placing the images for training.  The folder,ground_truth, was used for putting the labeled image corresponding to the images for training. ( Note: you need to be sure the files' order in both of folders (image, ground_truth) is consistent. Or, you can name the image and its corresponding labeled image with the same name and further put them into the 2 folders,respectively.)
 
 The folder,test_image, was used for placing those image you want to predict.
 
