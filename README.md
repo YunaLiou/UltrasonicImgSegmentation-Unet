@@ -1,6 +1,6 @@
 # Unet for Ultrasonic Image Segmentation
 　Unet used for medical image is very robust and effective. In this tiny project, I use Unet to identify the arm's median nerve on the ultrasonic imgae.  Most of the code is based on the implementation of [Unet](https://github.com/zhixuhao/unet) by zhixuhao
- on Python 3, Keras, and TensorFlow. In the following results, color red was labeled by experts and color green was the results inferenceㄎ by our trained model.
+ on Python 3, Keras, and TensorFlow. In the following results, color red was labeled by experts and color green was the results inference by our trained model.
 
 
 
