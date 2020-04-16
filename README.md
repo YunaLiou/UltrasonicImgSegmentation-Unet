@@ -13,7 +13,7 @@
 　There are 3 folders (**image**, **ground_truth**, **test_image**) under the folder,**datasets**. The folder,**image**, was used for placing the images for training.  The folder,**ground_truth**, was used for putting the labeled image corresponding to the images for training. 
  ( Note: you need to be sure the files' order in both of folders (**image**, **ground_truth**) are consistent. Or, you can name the image and its corresponding labeled image with the same name and further put them into the 2 folders,respectively.)
 The folder,**test_image**, was used for placing those image you want to predict.
-The data directory strutures are as following:
+The data directory structures are as following:
 
     datasets  
     　　└ image
@@ -41,17 +41,17 @@ If you just want to run on CPU rather than GPU,you need to comment out the two f
 
 * main in [unet.py](https://github.com/YunaLiou/UltraSonic-Image-Unet/blob/master/unet.py):
 
-You need to modify the 256 and 512 in the following code to your width and height of images.
+You need to modify the 256 and 512 in the following code to your height and width of images.
    (note: Be sure that your all images have the single size.)
 
     myunet = Unet(img_rows=256, img_cols=512)
 
 
-When completing the traing process, the model wiil be saved as a hdf5 file and it will use for predicting your images in the folders,test_image.
+When completing the training process, the model wiil be saved as a hdf5 file and it will be used for predicting your images in the folders,test_image.
 
-The result inferenced by trained model will be save as npy files and futher save as image into the folder, resultimage.
+The result was predicted by trained model will be save as npy files and futher save as image into the folder, resultimage.
 
 ## Semantic Segmentation Samples on Ultrasonic Image
-　The following demonstration is sequence of ultrasonic images which have label (green) and prediction (red). The yellow show that the overlap of experts' label and my model's predcition.
+　The following demonstration is a sequence of ultrasonic images which have label (green) and prediction (red). The yellow show that the overlap of experts' label and my model's predcition.
 ![image](https://github.com/YunaLiou/UltraSonic-Image-Unet/blob/master/readme/Demo2.gif)
 
