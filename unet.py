@@ -1,5 +1,4 @@
 import os
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import cv2
 import numpy as np
 from keras.models import *
