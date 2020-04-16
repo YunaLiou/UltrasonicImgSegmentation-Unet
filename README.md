@@ -52,6 +52,6 @@ When completing the traing process, the model wiil be saved as a hdf5 file and i
 The result inferenced by trained model will be save as npy files and futher save as image into the folder, resultimage.
 
 ## Semantic Segmentation Samples on Ultrasonic Image
-　The following demonstration is sequence of ultrasonic images which have label (green) and prediction (red).
+　The following demonstration is sequence of ultrasonic images which have label (green) and prediction (red). The yellow show that the overlap of experts' label and my model's predcition.
 ![image](https://github.com/YunaLiou/UltraSonic-Image-Unet/blob/master/readme/Demo2.gif)
 
