@@ -36,13 +36,16 @@ The data directory strutures are as following:
 ## Training your datasets
 To start training on your own dataset, the things you need to do modify in this repo is:
 
->* If you just want to run on CPU rather than GPU,you need to comment out the two lines.
+* main in [unet.py](https://github.com/YunaLiou/UltraSonic-Image-Unet/blob/master/unet.py):
+
+If you just want to run on CPU rather than GPU,you need to comment out the two lines.
 
     physical_devices = tf.config.experimental.list_physical_devices('GPU')
     tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
+* main in [unet.py](https://github.com/YunaLiou/UltraSonic-Image-Unet/blob/master/unet.py):
 
-> * You need to modify the 256 and 512 in the following code to your width and height of images.
+You need to modify the 256 and 512 in the following code to your width and height of images.
    (note: Be sure that your all images have the single size.)
 
     myunet = Unet(img_rows=256, img_cols=512)
