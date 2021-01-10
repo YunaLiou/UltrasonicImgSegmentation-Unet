@@ -1,4 +1,4 @@
-# Unet for Ultraso Image Segmentation
+# Unet for Ultrasound Image Segmentation
 　Unet used for medical image is very robust and effective. In this tiny project, I use Unet to identify the arm's median nerve on the ultrasonic imgae. In the following results, color red was labeled by experts and color green was the results predicted by the inference of trained model.The color yellow indcated the overlap of red and green.
 (note: Actually, the results via the inference of unet model are binary image; the following results is via post processing and then show it.)
 
